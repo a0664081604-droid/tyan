@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #101426;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffd45c;
+    font-size: 30px;
+}
+
+header p {
+    color: #929bb9;
+}
+
+.stats {
+    background: #202a47;
+    padding: 15px;
+    border-radius: 18px;
+    margin: 25px 0;
+}
+
+.stats h2 {
+    font-size: 35px;
+    color: #ffd45c;
+}
+
+.coin {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 8px solid #ffe69a;
+    background: linear-gradient(145deg, #ffe58a, #d99520);
+    font-size: 100px;
+    cursor: pointer;
+    box-shadow: 0 10px 35px #0008;
+    transition: transform .1s;
+}
+
+.coin:active {
+    transform: scale(.92);
+}
+
+.hint {
+    color: #aab5d5;
+    margin: 25px 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.shop {
+    background: #202a47;
+    padding: 15px;
+    border-radius: 18px;
+    text-align: left;
+}
+
+.shop h2 {
+    color: #ffd45c;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: #303d60;
+    padding: 12px;
+    border-radius: 13px;
+    margin: 12px 0;
+}
+
+.item p, .item small {
+    color: #b5bfdc;
+    font-size: 12px;
+}
+
+.item button, footer button {
+    border: none;
+    background: #647ee8;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.item button:disabled {
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+footer p {
+    color: #687391;
+    font-size: 11px;
+}
